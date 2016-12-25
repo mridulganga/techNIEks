@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>TechNIEks</title>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <link rel="stylesheet" href="css/master.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+<body style="background:url('img/back.jpg');">
+<div style="height:12%;">
+&nbsp;
+</div>
+
+<div class="container black hide-on-med-and-down" style="height:70%;">
+<div class="row" style="height:24%;">
+  <div class="col s2 black valign-wrapper tooltipped" data-position="left" data-tooltip="Home">
+      <i class="material-icons small mid white-text valign mid" >home</i>
+  </div>
+  <div class="col s2 blue darken-3 valign-wrapper tooltipped" data-position="top" data-tooltip="About US">
+    <i class="material-icons small mid white-text">face</i>
+  </div>
+  <div class="col s5 white valign-wrapper">
+    <i class="material-icons small mid black-text valign">info_outline</i>
+    <h5 class="valign mid">TechNIEks 2k17</h5>
+  </div>
+  <div class="col s3 black valign-wrapper">
+    <i class="material-icons small mid white-text valign">search</i>
+    <i class="material-icons small mid white-text valign dropdown-button" data-activates='dropdown1'>menu</i>
+          <!-- Dropdown Structure -->
+      <ul id='dropdown1' class='dropdown-content black white-text'>
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+  </div>
+</div><!--Row 1 End-->
+
+<div class="row" style="height:60%;">
+  <div class="col s6">
+    <div class="row" style="height:50%;">
+      <div class="col s6 blue darken-4 valign-wrapper">
+        <i class="material-icons small mid white-text">games</i>
+      </div>
+      <div class="col s6 grey lighten-2 valign-wrapper">
+        <i class="material-icons small mid black-text">supervisor_account  </i>
+      </div>
+    </div>
+    <div class="row" style="height:50%;">
+      <div class="col s6 grey lighten-2 valign-wrapper tooltipped" data-position="left" data-tooltip="Events ">
+        <i class="material-icons small mid black-text">event</i>
+      </div>
+      <div class="col s6 white valign-wrapper">
+        <i class="material-icons small mid black-text">timeline</i>
+      </div>
+    </div>
+  </div>
+  <div class="col s6 grey valign-wrapper white" style="padding:0px;">
+    <div class="carousel carousel-slider valign" style="width:100%; height:100%;">
+    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+    </div>
+  </div>
+</div><!--Row 2 End-->
+
+
+<div class="row" style="height:20%;">
+  <div class="col s3 white valign-wrapper tooltipped" data-tooltip="Galleries" data-position="left">
+    <i class="material-icons small mid black-text">camera_alt</i>
+  </div>
+  <div class="col s3 grey lighten-2 valign-wrapper">
+    <i class="material-icons small mid black-text">book</i>
+  </div>
+  <div class="col s3 white valign-wrapper">
+    <i class="material-icons small mid black-text">volume_up  </i>
+  </div>
+  <div class="col s3 blue valign-wrapper">
+      <i class="material-icons small mid white-text">favorite</i>
+  </div>
+</div><!--Row 3 End-->
+
+</div>
+
+<!--Do Not Change from here on -->
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+
+        <!--This should be after loading jquery only -->
+        <script>
+            $( document ).ready(function() {
+                $(".button-collapse").sideNav();
+                $('.tooltipped').tooltip({delay: 50});
+                $('.collapsible').collapsible();
+                $('.parallax').parallax();
+                $('select').material_select();
+                $('.carousel.carousel-slider').carousel({full_width: true});
+
+            });
+        </script>
+
+</body>
+  </html>

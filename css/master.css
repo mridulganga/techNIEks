@@ -1,0 +1,9 @@
+html,body{height: 100%;}
+.row{margin: 0;}
+.col{ height: 100%;}
+.mid{float: none; margin: 0 auto;}
+.vertical-text {
+	transform: rotate(-90deg);
+	transform-origind:left top;
+
+}
