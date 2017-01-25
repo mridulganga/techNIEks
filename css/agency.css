@@ -256,6 +256,20 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+header .intro-text .intro-lead-in #wel {
+	  
+	  font-size:35px;
+  }
+@media(max-width:768px)
+  {
+	  header .intro-text .intro-lead-in #wel {
+	  
+	  font-size:20px;
+	  padding: 0px 0px 10px 0px;
+  display: inline-block;
+  }
+  }
+
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -276,6 +290,11 @@ header .intro-text .intro-heading {
     line-height: 50px;
     margin-bottom: 25px;
   }
+  header .intro-text .intro-lead-in #wel {
+	  
+	  font-size:35px;
+  }
+  
 }
 section {
   padding: 100px 0;
